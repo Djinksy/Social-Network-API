@@ -1,6 +1,6 @@
 const { connect, connection} = require('mongoose');
 
-const connectionString = process.env.MONGODB_URI || 'mongodb://localhost/socialmediaDB';
+const connectionString = process.env.MONGODB_URI || 'mongodb://localhost:27017/socialMediaDB';
 // connect local connection
 connect(connectionString, {
     useNewUrlParser: true,
