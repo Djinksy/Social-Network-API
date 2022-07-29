@@ -27,7 +27,6 @@ createThought(req,res) {
         { $addToSet: { thoughts: thought._id } },
         { new: true }
     ) 
-    )
     .then ((user) =>
     !user 
     ? res.status(404).json({
@@ -38,7 +37,7 @@ createThought(req,res) {
     .catch((err) => {
         console.log(err);
         return res.status(500).json(err);
-    });
+    })); 
 },
 // update a thought
 updateThought(req,res) {

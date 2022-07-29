@@ -42,7 +42,7 @@ To run the app please use the following command:
 
 # Usage 
 
-[A quick demonstration on Social-Network API](https://drive.google.com/file/d/1W3c5UHheJ8qiK7EQjt6qRyCLKR5aXmeR/view?usp=sharing)
+[A quick demonstration on Social-Network API]()
 
 # License 
 
