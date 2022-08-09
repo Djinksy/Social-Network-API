@@ -1,7 +1,8 @@
 {
   "dependencies": {
-    "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "mongoose": "^6.4.7"
+    "momen": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "mongoose": "^6.4.6"
   }
 }
